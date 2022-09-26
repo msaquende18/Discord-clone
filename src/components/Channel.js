@@ -19,6 +19,7 @@ function Channel({ id, channelName }) {
   };
 
   return (
+
     <div
       className="font-medium flex items-center cursor-pointer hover:bg-[#3A3C43] p-1 rounded-md  hover:text-white"
       onClick={setChannel}
