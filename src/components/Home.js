@@ -109,6 +109,7 @@ function Home() {
             </div>
           </div>
         </div>
+        
 
         <div className="bg-[#36393f] flex-grow">
           <Chat />

@@ -8,6 +8,7 @@ import {
   PlusCircleIcon,
   GiftIcon,
   EmojiHappyIcon,
+  LogoutIcon,
 } from "@heroicons/react/solid";
 import { useSelector } from "react-redux";
 import { selectChannelId, selectChannelName } from "../features/channelSlice";
@@ -78,6 +79,7 @@ function Chat() {
           </div>
           <InboxIcon className="icon" />
           <QuestionMarkCircleIcon className="icon" />
+          <LogoutIcon className="icon hover:bg-[#ed4245] p-1 ml-auto rounded-sm  hover:text-white cursor-pointer" onClick={() => auth.signOut()}/>
         </div>
       </header>
       <main className="flex-grow overflow-y-scroll scrollbar-hide">
